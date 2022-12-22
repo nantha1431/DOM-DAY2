@@ -1,0 +1,53 @@
+.head{
+    display: flex;
+    justify-content: center;
+    color: greenyellow;
+    background-color: black;
+}
+body{
+    display: grid;
+    margin:15px 100px;
+    justify-content: center;
+}
+.calculator{
+    display: grid;
+    justify-content: center;
+    border:2px solid black;
+    width:400px;
+    height:500px;
+    padding: 40px 40px;
+    background-color: aqua;
+}
+.thead{
+    margin: 1px;
+}
+.th1{
+    width: 215px;
+    height: 65px;
+    font-size: 20px;
+    border: 2px solid rgb(249, 6, 6);
+    background-color: black;
+    color: white;
+}  
+#th2{
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 30PX;
+    background-color: greenyellow;
+    color: red;
+}  
+.tdata{
+    border: 2px solid black;
+    margin: 1px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 50PX;
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+#tda{
+    color: red;
+}
